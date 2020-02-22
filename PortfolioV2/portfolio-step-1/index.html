@@ -2,13 +2,26 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <div>
+      <link rel="stylesheet" href="light|dark.css">
+    </div>
     <title>Портфолио Junior верстальщика</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
-
-  <body>
+  <div><link rel="stylesheet" href="light|dark.css"></div>
+  <body class="page light-theme">
     <header class="page-header">
+      <div>
+        <div class="switch">
+          <pre>Сменить тему</pre>
+          <input type="checkbox" checked id="switch-1" class="switch-check">
+          <label for="switch-1" class="switch-label">
+            Опция
+            <span class="switch-slider switch-slider-on"></span>
+            <span class="switch-slider switch-slider-off"></span>
+          </label>
+        </div>
+      </div>
       <div class="container">
         <a class="header-email" href="mailto:aslan1122@bk.ru">aslan1122@bk.ru</a>
         <a class="header-phone" href="tel:+79380267174">+7-938-026-71-74</a>
@@ -28,12 +41,16 @@
         <figcaption>Тут должно быть мое фото</figcaption>
       </figure>
       <h3>Пара слов о себе</h3>
-      <p>Аслан Бекиров</p>
-      <p>18 лет</p>
-      <p>студент первого курса</p>
+      <ul class="marg">
+        <li>Аслан Бекиров</li>
+        <li>18 лет</li>
+        <li>студент первого курса</li>
+      </ul>
       <h3>Чем могу быть полезен</h3>
-      <p>любой каприз за ваши деньги</p>
-
+      <ul class="marg">
+        <li>Любой каприз за ваши деньги</li>
+      </ul>
+      
       <div class="skills">
         <h3>Мои навыки</h3>
         <dl class="skills-list">
@@ -48,18 +65,23 @@
 
     <section class="portfolio">
       <h2 class="subheading">Мои работы</h2>
-      <!-- <figure class="project-image">
+
+      <figure class="project-image">
         <img src="files/project.jpg" width="600"  alt="Cайт инструктора Кекса">
-      </figure> -->
+      </figure>
 
-      <h3>Сайт инструктора Кекса</h3>
-      <p>Мой первый сайт</p>
-      <a class="button" href="https://sawbes.github.io/my-site2/PortfolioV2/Project/project/\index.html">Открыть страницу</a>
-      <p>Небольшой лендинг о школе для начинающих.</p>
+        <h3>Сайт инструктора Кекса</h3>
+        <p>Мой первый сайт</p>
+        <a class="button" href="https://sawbes.github.io/my-site2/PortfolioV2/Project/project/\index.html">Открыть страницу</a>
+        <p>Небольшой лендинг о школе для начинающих.</p>
 
-      <h3>Блог начинающего верстальщика</h3>
-      <a class="button" href="https://sawbes.github.io/my-site2/PortfolioV2/projectBlog/\index.html">Открыть страницу</a>
-      <p>Статический блог про обучение HTML и CSS.</p>
+      <figure class="project-image">
+        <img src="files/blog.png" width="600"  alt="Cайт блога" class="top">
+      </figure>
+
+        <h3>Блог начинающего верстальщика</h3>
+        <a class="button" href="https://sawbes.github.io/my-site2/PortfolioV2/projectBlog/\index.html">Открыть страницу</a>
+        <p>Статический блог про обучение HTML и CSS.</p>
       
     </section>
   </div>
@@ -70,5 +92,7 @@
         <a class="footer-phone" href="tel:+79380267174">+7-938-026-71-74</a>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
