@@ -1,0 +1,59 @@
+html {
+	font-family: sans-serif;
+	background-color: rgb(189, 189, 189);
+}
+
+.game {
+	width: 50%;
+	height: 50%;
+	max-width: 800px;
+	min-width: 480px;
+	margin: 0 auto;
+	background-color: rgba(91, 152, 223, 0.7);
+  	border: 5px solid #f06e5d;
+  	border-radius: 40px;
+  	color: #07061b;
+	font-family: "Verdana", "Courier", monospace;
+	padding: 10px 30px 30px 30px;
+	margin-top: 30px;
+	box-shadow:3px 3px 6px black;
+	font-size: 18px;
+}
+
+
+input {
+border-radius: 25px;
+background-color: #eaf8cf;
+border: 2px solid #e7e965;
+box-shadow:3px 3px 6px black;
+}
+
+button {
+	margin: 50px 50px 50px 540px;
+	background-color: rgba(63, 212, 58, 0.7);
+	border: 5px solid #f06e5d;
+	border-radius: 20px;
+	font-family: "Verdana", "Courier", monospace;
+	color: yellow;
+	font-size: 18px;
+	padding: 15px;
+	box-shadow:3px 3px 6px black;
+	text-shadow: 2px 2px 3px black;
+}
+
+h1 {
+	color: yellow;
+	text-shadow: 2px 2px 3px black;
+	text-align: center;
+	background-color: rgba(63, 212, 58, 0.7);
+	box-shadow: 1px 1px 2px black;
+	padding: 7px;
+	border-radius: 50px;
+}
+
+
+
+.lastResult {
+	color: white;
+	padding: 3px;
+}

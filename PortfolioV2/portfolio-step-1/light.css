@@ -122,6 +122,10 @@ figure {
   background-position: left;
 }
 
+.skill-js {
+  background-image: url("img/icons-javascript.svg");
+}
+
 .skill-html {
   background-image: url("img1/icon-html.svg");
 }
