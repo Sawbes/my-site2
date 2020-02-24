@@ -249,11 +249,11 @@ figure {
   .switch-slider-on {
     left:0;
     width:27px;
-    background:#fea18d url(files/on.svg) 100% 1.5px no-repeat;
+    background:#288be6 no-repeat;
     }
   .switch-slider-off {
     right:0;
-    background:#288be6 url(files/off.svg) 30px 1.7px no-repeat;
+    background:#fea18d no-repeat;
     }
     .switch-slider-off:after {
       position:absolute;

@@ -250,11 +250,12 @@ figure {
   .switch-slider-on {
     left:0;
     width:27px;
-    background:#fea18d  no-repeat;
+    background:#288be6  no-repeat;
+    
     }
   .switch-slider-off {
     right:0;
-    background:#288be6  no-repeat;
+    background:#fea18d  no-repeat;
     }
     .switch-slider-off:after {
       position:absolute;
