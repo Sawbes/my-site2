@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  min-width: 960px;
+  min-width: 962px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
@@ -19,6 +19,11 @@ body {
   margin-top: 35px;
 }
 
+#contacts {
+  text-align: right;
+  padding-right: 100px;
+}
+
 figure {
   text-align: center;
 }
@@ -28,14 +33,14 @@ figure {
 }
 
 .container {
-  max-width: 50%;
+  width: 900px;
   margin: 0 auto;
   padding: 0 16px;
 }
 
 .page-header {
-  margin: 0 0 100px;
-  padding: 32px 0 32px;
+  margin: 0 0 45px;
+  padding: 15px 0 15px;
 }
 
 .page-header .container,
@@ -63,7 +68,7 @@ figure {
 }
 
 .hero-image {
-  margin-bottom: 480px;
+  margin-bottom: 620px;
 }
 
 .hero-image .container {
@@ -72,8 +77,8 @@ figure {
 }
 
 .heading {
-  margin: 0 0 24px;
-  font-size: 80px;
+  margin: 0 0 16px;
+  font-size: 88px;
   line-height: 96px;
 }
 
@@ -207,6 +212,7 @@ figure {
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
 }
+
 
 /*Switch*/
 
