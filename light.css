@@ -1,6 +1,6 @@
 .light-theme, body {
   margin: 0;
-  min-width: 700px;
+  min-width: 962px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
@@ -15,6 +15,11 @@
   margin-top: 35px;
 }
 
+#contacts {
+  text-align: right;
+  padding-right: 100px;
+}
+
 figure {
   text-align: center;
 }
@@ -24,7 +29,7 @@ figure {
 }
 
 .container {
-  max-width: 60%;
+  width: 900px;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -207,7 +212,6 @@ figure {
   padding-left: 25px;
   background-image: url("img1/icon-phone-footer.svg");
 }
-
 
 /* Switch */
 
