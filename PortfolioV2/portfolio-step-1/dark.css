@@ -28,7 +28,7 @@ figure {
 }
 
 .container {
-  max-width: 928px;
+  max-width: 50%;
   margin: 0 auto;
   padding: 0 16px;
 }
